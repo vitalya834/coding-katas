@@ -32,7 +32,7 @@ const data = [{ id: 1, price: 100 }, { price: 50 }];
 
 const filteredData = filterApiData(data, ["id"]);
 
-console.log(filteredData); // [{id: 1, price: 0}]
+console.log(filteredData); // [{id: 1, price: 100}]
 ```
 
 ```js
