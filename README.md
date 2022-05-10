@@ -3,16 +3,15 @@
 Solve the katas with the following requirements:
 
 - [ ] Clone this repository (on your computer)
-- [ ] Delete the existing remote after cloning the repository to your computer
+- [ ] Delete the existing remote after cloning the repository to your computer (`git remote remove origin`)
 - [ ] Create a new branch called `checkpoint`
 - [ ] Solve the katas on the `checkpoint` branch
 - [ ] Create a new repository on GitHub called `checkpoint-coding-foundation`
-  - [ ] Add this repository as the new origin remote to your local repository 
-- [ ] Push the commits to your GitHub repository
+  - [ ] Add this repository as the (new) origin remote to your local repository 
+- [ ] Push both branches (`main` and `checkpoint`) to your GitHub repository
 - [ ] Create a new pull request when your are done that will merge your `checkpoint` branch into the `main` branch
-- [ ] Do not merge the branch yourself
 - [ ] Assign the `codingbootcampseu` GitHub user `read` permission to your repo
-- [ ] Assign the `codingbootcampseu` user as reviewer to your pull request
+- [ ] Do not merge the branch yourself
 
 All three katas have test files that will be automatically executed when loading the index.html in the browser (please use VS Code Live Server for that).
 
