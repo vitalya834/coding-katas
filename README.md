@@ -1,17 +1,9 @@
-# Checkpoint Coding Foundation
+# JavaScript Coding Katas with Unit Tests
 
-Solve the katas with the following requirements:
+Solve the katas with the following instructions:
 
 - [ ] Clone this repository (on your computer)
-- [ ] Delete the existing remote after cloning the repository to your computer (`git remote remove origin`)
-- [ ] Create a new branch called `checkpoint`
-- [ ] Solve the katas on the `checkpoint` branch
-- [ ] Create a new repository on GitHub called `checkpoint-coding-foundation`
-  - [ ] Add this repository as the (new) origin remote to your local repository 
-- [ ] Push both branches (`main` and `checkpoint`) to your GitHub repository
-- [ ] Create a new pull request when your are done that will merge your `checkpoint` branch into the `main` branch
-- [ ] Assign the `codingbootcampseu` GitHub user `read` permission to your repo
-- [ ] Do not merge the branch yourself
+- [ ] Delete the existing remote after cloning the repository to your computer (`git remote remove origin`) so that you don't accidently push changes to this repository
 
 All three katas have test files that will be automatically executed when loading the index.html in the browser (please use VS Code Live Server for that).
 
