@@ -30,9 +30,9 @@ describe("Sum App", function () {
     chai.expect(sumApp.getSum()).to.equal(6);
   });
 
-  it("SumApp should have getSum method", function () {
+  it("SumApp should have reset method", function () {
     const sumApp = new SumApp();
-    chai.expect(sumApp).to.have.property("getSum");
+    chai.expect(sumApp).to.have.property("reset");
   });
 
   it("The reset method should remove all added numbers", function () {

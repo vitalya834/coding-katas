@@ -87,3 +87,25 @@ console.log(zipStrings("", "123")); // "123"
 
 console.log(zipStrings("abc", "")); // "abc"
 ```
+
+## Extract Class Name
+
+TODO
+
+### Extract Class Name Example
+
+```js
+console.log(extractClassName("Live-Session Class 2022 September")); // "2022-09"
+
+console.log(extractClassName("Live-Session Class 2022 März")); // "2022-03"
+
+console.log(extractClassName("Live-Session Class 2022 Maerz")); // "2022-03"
+
+console.log(extractClassName("Live-Session 2022 April")); // null
+
+console.log(extractClassName("Live-Session Class 2 X")); // null
+
+console.log(extractClassName("Live-Session Class 2022 Y")); // null
+
+console.log(extractClassName("Live-Session Class 22 April")); // null
+```
