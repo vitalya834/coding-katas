@@ -18,4 +18,8 @@ describe("Zip Procedure", function () {
   it("should join the strings 'a' and ''", function () {
     chai.expect(zipStrings("a", "")).to.equal("a");
   });
+
+  it("should join the strings 'abc' and 'uvwxyz'", function () {
+    chai.expect(zipStrings("abc", "uvwxyz")).to.equal("aubvcwxyz");
+  });
 });
