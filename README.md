@@ -5,7 +5,7 @@ Solve the katas with the following instructions:
 - [ ] Clone this repository (on your computer)
 - [ ] Delete the existing remote after cloning the repository to your computer (`git remote remove origin`) so that you don't accidently push changes to this repository
 
-All three katas have test files that will be automatically executed when loading the index.html in the browser (please use VS Code Live Server for that).
+All katas are in a separate folder and have a test file that will be automatically executed when loading the index.html of the kata in the browser (please use VS Code Live Server for that).
 
 ## Kata: Filter API Data
 
