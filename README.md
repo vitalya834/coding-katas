@@ -1,12 +1,5 @@
 # JavaScript Coding Katas with Unit Tests
 
-Solve the katas with the following instructions:
-
-- [ ] Clone this repository (on your computer)
-- [ ] Delete the existing remote after cloning the repository to your computer (`git remote remove origin`) so that you don't accidently push changes to this repository
-
-All katas are in a separate folder and have a test file that will be automatically executed when loading the index.html of the kata in the browser (please use VS Code Live Server for that).
-
 ## Kata: Filter API Data
 
 Implement the `filterApiData` function in `filter-api-data.js` with the following requirements in mind.
