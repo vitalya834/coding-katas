@@ -33,20 +33,7 @@ console.log(filteredData); // [{ id: 1, price: 100 }, { id:3, price: 50}]
 
 
 
-## Extract Class Name
 
-TODO
-
-### Extract Class Name Example
-
-```js
-console.log(extractClassName("Live-Session Class 2022 September")); // "2022-09"
-
-console.log(extractClassName("Live-Session Class 2022 März")); // "2022-03"
-
-console.log(extractClassName("Live-Session Class 2022 Maerz")); // "2022-03"
-
-console.log(extractClassName("Live-Session 2022 April")); // null
 
 console.log(extractClassName("Live-Session Class 2 X")); // null
 
