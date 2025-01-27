@@ -48,8 +48,7 @@ function extractClassName(input) {
 
   // Возвращаем результат в нужном формате или null
   if (year && monthName) {
-      return `${year}-${months[monthName]}`; // Формируем строку в формате ГГГГ-ММ
-  }
+      return `${year}-${months[monthName]}`; // format jahr  -  mmm
   return null; // Если условия не выполнены, возвращаем null
 }
 
